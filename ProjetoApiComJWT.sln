@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32510.428
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - API", "01 - API", "{9AA36755-E4DD-483C-9F00-26A75064E123}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiJwt", "ApiJwt\ApiJwt.csproj", "{A5541045-9403-4D44-A812-E62AEB38F6D1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Aplication Consumindo API com JQuery", "02 - Aplication Consumindo API com JQuery", "{F6C437E6-3C1C-4438-8370-9ECA68AA6846}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsumindoApiViaJQuery", "ConsumindoApiViaJQuery\ConsumindoApiViaJQuery.csproj", "{5019FA2F-E1EF-4871-B108-D9C77FCA17BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5541045-9403-4D44-A812-E62AEB38F6D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5541045-9403-4D44-A812-E62AEB38F6D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5541045-9403-4D44-A812-E62AEB38F6D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5541045-9403-4D44-A812-E62AEB38F6D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5019FA2F-E1EF-4871-B108-D9C77FCA17BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5019FA2F-E1EF-4871-B108-D9C77FCA17BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5019FA2F-E1EF-4871-B108-D9C77FCA17BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5019FA2F-E1EF-4871-B108-D9C77FCA17BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A5541045-9403-4D44-A812-E62AEB38F6D1} = {9AA36755-E4DD-483C-9F00-26A75064E123}
+		{5019FA2F-E1EF-4871-B108-D9C77FCA17BF} = {F6C437E6-3C1C-4438-8370-9ECA68AA6846}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EDA463CC-7BA9-4629-83DF-4490584A0AC9}
+	EndGlobalSection
+EndGlobal
